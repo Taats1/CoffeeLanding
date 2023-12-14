@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Caveat&family=DM+Serif+Display&family=Dhurjati&family=Playfair+Display&family=Rethink+Sans:ital@1&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url(../img/coffee2.jpg);
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image_link a {
+    background-color: #4f594e37;
+    border: 2px solid #4f594e;
+    color: beige;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.intro-image_link a:hover {
+    transform: scale(1.5);
+}
+
+.intro-text {
+    align-items: center;
+    background-color: #c3beab;
+    color: black;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    padding: 0 15rem
+}
+
+.intro-text_textbox h3 {
+   font-size: 2rem;
+   text-transform: uppercase;
+   margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url(../img/coffeeshop6.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    height: 450px;
+    justify-content: center;
+}
+
+.quality-image_link a {
+    background-color: #5c63758a;
+    border: 2px solid #5c63758a;
+    color: beige;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ .quality-image_link a:hover {
+    transform: scale(1.2)
+}
+
+.quality-text {
+    align-items: center;
+    background-color: #7d7d78;
+    color:beige;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    padding: 0 15rem
+ }
+
+.quality-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+ }
+
+
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url(../img/coffeebeans4.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    height: 450px;
+    justify-content: center;
+}
+
+.origin-image_link a {
+    background-color: #5c63758a;
+    border: 2px solid #5c63758a;
+    color: beige;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ .origin-image_link a:hover {
+    transform: scale(1.2)
+}
+
+.origin-text {
+    align-items: center;
+    background-color: #7d7d78;
+    color:beige;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    padding: 0 15rem
+ }
+
+.origin-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+ }
+
+ .footer {
+    height: 250px;
+    background-color: #7d7d78;
+    color: beige;
+    font-size: 2rem;
+    padding-top: 2rem;
+ }
+
+ .footer ul li {
+    display: inline-block;
+    margin: 1rem;
+ }
+
+ .footer ul li a {
+    color: beige;
+    text-decoration: none;
+ }
+
+ .footer ul li a:hover {
+    color: bl;
+ }
